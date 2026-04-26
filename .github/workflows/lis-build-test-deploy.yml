@@ -1,0 +1,13 @@
+name: lis-build-test-deploy
+
+on:
+  push: 
+    branches: [ main ]
+ 
+jobs:
+  lis-continued-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code on the repository 
+        uses: actions/checkout@v2
+      
