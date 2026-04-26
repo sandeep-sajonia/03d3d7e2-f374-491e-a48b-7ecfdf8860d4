@@ -4,6 +4,6 @@
     <Project Path="src/LIS.Core/LIS.Core.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/LIS.Tests/LIS.Tests.csproj" />
-  </Folder>
+    <Project Path="tests/LIS.Tests/LIS.Core.Tests.csproj" />
+  </Folder>  
 </Solution>
