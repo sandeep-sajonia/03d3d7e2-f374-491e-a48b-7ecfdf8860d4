@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LIS.App/LIS.App.csproj" />
+    <Project Path="src/LIS.Core/LIS.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LIS.Tests/LIS.Tests.csproj" />
+  </Folder>
+</Solution>
