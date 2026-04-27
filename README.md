@@ -65,10 +65,22 @@ View report:
 Open: coverage-report/index.html
 
 7. Run with Docker
+
+Open the command terminal and navigate to the project directory, then execute the following commands:
+The project directory should contain the Dockerfile.
+For this solution, the Dockerfile is located at the root of the repository which is "03d3d7e2-f374-491e-a48b-7ecfdf8860d4".
+
+Before running the Docker commands, ensure you have Docker installed and running on your machine.
+You can download Docker from https://www.docker.com/get-started.
+To verify that Docker is installed correctly, you can run the following command in your terminal:
+# Below command will display the installed Docker version
+$ docker --version
+
 Build Docker Image
-docker build -t lis-app .
+$ docker build -t lis.app .
+
 Run Container
-docker run -it lis-app
+$ docker run -it lis.app
 
 8. CI/CD with GitHub Actions
 
