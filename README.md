@@ -5,21 +5,23 @@ Longest Increasing Subsequence (LIS) – .NET Solution
 This repository contains a .NET 10 solution that calculates the Longest Increasing Subsequence (LIS) from a space-separated list of numbers. It includes a console application, core library, unit tests, Docker support, and CI/CD with code coverage reporting.
 
 Project Structure
+
 LIS-Repository/
-│
-├── src/
-│   ├── LIS.Core/          # Core LIS algorithm logic
-│   ├── LIS.App/           # Console application
-│
-├── tests/
-│   └── LIS.Tests/         # xUnit test project - unit tests for LIS.Core logic
-│
-├── .github/
-│   └── workflows/         # GitHub Actions CI pipeline
-│
-├── Dockerfile
-├── LIS.slnx
-└── README.md
+|
+|-- src/
+|   |-- LIS.Core/      (Core LIS algorithm logic)
+|   |-- LIS.App/       (Console application)
+|
+|-- tests/
+|   |-- LIS.Tests/     (xUnit test project)
+|
+|-- .github/
+|   |-- workflows/     (GitHub Actions CI pipeline)
+|
+|-- Dockerfile
+|-- LIS.sln
+|-- README.md
+
 
 Prerequisites
 
