@@ -2,7 +2,7 @@
 
 Longest Increasing Subsequence (LIS) – .NET Solution
 
-This repository contains a .NET 8 solution that calculates the Longest Increasing Subsequence (LIS) from a space-separated list of numbers. It includes a console application, core library, unit tests, Docker support, and CI/CD with code coverage reporting.
+This repository contains a .NET 10 solution that calculates the Longest Increasing Subsequence (LIS) from a space-separated list of numbers. It includes a console application, core library, unit tests, Docker support, and CI/CD with code coverage reporting.
 
 Project Structure
 LIS-Repository/
