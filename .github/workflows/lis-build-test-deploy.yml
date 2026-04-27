@@ -23,4 +23,4 @@ jobs:
       - name: Test with results
         run: dotnet test --logger trx
       - name: Build Docker Image
-        run: docker build -it lis-app .
+        run: docker build -t lis.app .
